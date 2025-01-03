@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+@import "intro.css";
+@import "nav.css";
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  border: none;
+  outline: none;
+  word-break: keep-all;
+}
+
+main,
+label {
+  display: block;
+}
+
+a,
+u,
+i,
+em {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
+table,
+tr,
+th,
+td {
+  border: 2px solid gray;
+  border-collapse: collapse;
+  border: none;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
