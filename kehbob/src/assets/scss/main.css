@@ -1,1 +1,19 @@
-/*# sourceMappingURL=main.css.map */
+section {
+  border-bottom: 1px solid red;
+}
+
+.home-section,
+.profile-section,
+.skill-section,
+.project-section {
+  height: 100vh;
+}
+
+.scroll-container {
+  overflow: auto;
+  scroll-snap-type: y mandatory;
+}
+
+.scroll-area {
+  scroll-snap-align: start;
+}/*# sourceMappingURL=main.css.map */

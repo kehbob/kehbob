@@ -13,11 +13,6 @@ export const router = new VueRouter ({
       path: '/main',
       component: () => import('@/components/Main.vue'),
     }, {
-      path: '/Profile',
-      component: () => import('@/components/Profile.vue'),
-    },
-
-    {
       path: '/',
       redirect: '/',
     }
